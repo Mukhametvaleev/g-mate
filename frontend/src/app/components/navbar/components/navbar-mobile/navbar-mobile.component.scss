@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+.navbar-mobile {
+    border-bottom: $list-group-border-width solid $navbar-light-toggler-border-color;
+
+    &__logo {
+        width: 105px;
+    }
+}

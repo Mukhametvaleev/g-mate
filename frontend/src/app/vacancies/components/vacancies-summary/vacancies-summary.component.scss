@@ -1,0 +1,9 @@
+:host {
+    display: block;
+}
+
+.vacancies-summary {
+    &__title {
+        line-height: 1.5;
+    }
+}

@@ -1,0 +1,8 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+:host {
+    left: map-get($spacers, 5);
+    top: map-get($spacers, 5);
+    right: auto;
+}

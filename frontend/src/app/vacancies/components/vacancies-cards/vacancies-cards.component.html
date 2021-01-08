@@ -1,0 +1,8 @@
+<ng-container *ngIf="titleByLocation">
+    <app-vacancy-card
+        class="mb-5"
+        *ngFor="let vacancy of vacancies"
+        [vacancy]="vacancy"
+        [titleByLocation]="titleByLocation"
+    ></app-vacancy-card>
+</ng-container>

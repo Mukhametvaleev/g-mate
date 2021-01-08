@@ -1,0 +1,18 @@
+<app-vacancies-summary class="mb-5" [count]="count"></app-vacancies-summary>
+<div class="container">
+    <div class="row align-items-start">
+        <app-toggle-class class="col-12" [onScrolledDown]="['col-lg-4', 'col-lg-12']">
+            <app-vacancies-filters></app-vacancies-filters>
+        </app-toggle-class>
+        <div class="col-12 col-lg">
+            <app-vacancies-cards
+                [vacancies]="vacancies"
+            ></app-vacancies-cards>
+            <app-get-more-button
+                *ngIf="vacancies.length < count"
+                (click)="getMoreVacancies()"
+            ></app-get-more-button>
+        </div>
+    </div>
+</div>
+<app-scroll-to-top-button></app-scroll-to-top-button>

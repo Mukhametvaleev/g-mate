@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    height="7.282"
+    id="svg834"
+    inkscape:version="1.0 (4035a4f, 2020-05-01)"
+    sodipodi:docname="chevron-down.svg"
+    version="1.1"
+    viewBox="0 0 12 7.282"
+    width="12"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+  <metadata
+     id="metadata840">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs838" />
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1"
+     gridtolerance="10"
+     guidetolerance="10"
+     id="namedview836"
+     inkscape:current-layer="svg834"
+     inkscape:cx="6"
+     inkscape:cy="3.641"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="987"
+     inkscape:window-maximized="0"
+     inkscape:window-width="2080"
+     inkscape:window-x="527"
+     inkscape:window-y="230"
+     inkscape:zoom="55.666667"
+     objecttolerance="10"
+     pagecolor="#ffffff"
+     showgrid="false" />
+  <path
+     d="m 6.462,0.19151139 5.34,5.34000001 a 0.659,0.659 0 0 1 0,0.933 l -0.623,0.623 a 0.66,0.66 0 0 1 -0.932,0 l -4.254,-4.232 -4.25,4.233 a 0.66,0.66 0 0 1 -0.93200001,0 l -0.618,-0.625 a 0.659,0.659 0 0 1 0,-0.933 L 5.533,0.18951139 a 0.66,0.66 0 0 1 0.929,0.002 z"
+     data-name="Icon awesome-chevron-down"
+     id="Icon_awesome-chevron-down"
+     style="fill:#ffffff" />
+</svg>

@@ -1,0 +1,8 @@
+<div class="text-center mb-4 d-block d-lg-none">
+    <a href="#" (click)="resetFilters($event)">
+        Сбросить все фильтры
+    </a>
+</div>
+<ng-container *ngFor="let vacancyFilterValue of vacancyFilterValues">
+    <app-vacancy-filter [param]="vacancyFilterValue"></app-vacancy-filter>
+</ng-container>

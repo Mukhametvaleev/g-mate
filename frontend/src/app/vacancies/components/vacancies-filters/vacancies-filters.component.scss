@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+:host {
+    display: block;
+}
+
+.vacancy-filter-group {
+    margin-bottom: map-get($spacers, 5);
+
+    &__icon {
+        width: 22px;
+    }
+}

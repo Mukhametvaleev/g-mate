@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+:host {
+    font-size: $h5-font-size;
+
+    & > *:not(:last-child) {
+        margin-right: map-get($spacers, 2);
+    }
+}

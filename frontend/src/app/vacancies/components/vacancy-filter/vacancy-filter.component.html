@@ -1,0 +1,36 @@
+<div
+    *ngIf="vacancyFilter"
+    class="list-group list-group-flush vacancy-filter"
+>
+    <div class="list-group-item d-flex justify-content-between align-items-center">
+        <h5 class="h5 font-weight-bold mb-0">
+            {{vacancyFilter.title}}
+        </h5>
+        <img
+            src="/assets/{{vacancyFilter.param}}.svg"
+            alt=""
+            class="ml-3 vacancy-filter__icon"
+        />
+    </div>
+    <a
+        href="#"
+        class="list-group-item list-group-item-action"
+        *ngFor="let child of vacancyFilter.children"
+        (click)="setValue($event, child.value)"
+    >
+        <div
+            class="custom-control"
+            [class]="vacancyFilter.multiple ? 'custom-checkbox' : 'custom-radio'"
+        >
+            <input
+                type="checkbox"
+                class="custom-control-input"
+                [type]="vacancyFilter.multiple ? 'checkbox' : 'radio'"
+                [checked]="values.includes(child.value)"
+            >
+            <label class="custom-control-label pl-1">
+                {{child.title}}
+            </label>
+        </div>
+    </a>
+</div>

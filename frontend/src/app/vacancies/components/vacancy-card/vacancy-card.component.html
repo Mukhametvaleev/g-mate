@@ -1,0 +1,44 @@
+<div class="card p-4">
+    <div class="row">
+        <div class="col-12 col-sm mb-4 mb-sm-0">
+            <app-vacancy-position
+                [url]="vacancy.url"
+                [position]="vacancy.position"
+                [companyName]="vacancy.company_name"
+            ></app-vacancy-position>
+            <div class="mt-4">
+                <app-vacancy-locations
+                    [locations]="vacancy.locations"
+                    [titleByLocation]="titleByLocation"
+                ></app-vacancy-locations>
+            </div>
+        </div>
+        <div class="col-12 col-sm-auto">
+            <app-vacancy-salary
+                [from]="vacancy.salary_from"
+                [to]="vacancy.salary_to"
+            ></app-vacancy-salary>
+        </div>
+    </div>
+    <div class="my-4">
+        <app-vacancy-telegram-message
+            [telegramMessage]="vacancy.telegram_message"
+        ></app-vacancy-telegram-message>
+    </div>
+    <div class="row align-items-end">
+        <div class="col">
+            <app-vacancy-published
+                [publishedAt]="vacancy.published_at"
+            ></app-vacancy-published>
+        </div>
+        <div class="col-auto">
+            <app-vacancy-company-logo
+                [src]="vacancy.company_logo"
+                [alt]="vacancy.company_name"
+            ></app-vacancy-company-logo>
+        </div>
+    </div>
+    <a href="{{vacancy.url}}" class="btn btn-primary mt-4 btn-block d-lg-none">
+        Подробнее
+    </a>
+</div>

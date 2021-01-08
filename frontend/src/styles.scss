@@ -1,0 +1,20 @@
+$blue: #0066FF;
+$font-family-sans-serif: Montserrat, sans-serif;
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+$jumbotron-bg: $gray-100;
+
+body {
+    padding-top: 76px;
+    padding-bottom: map-get($spacers, 5) * 1.8;
+
+    @include media-breakpoint-up(lg) {
+        padding-top: 0;
+        padding-bottom: map-get($spacers, 5) * 3;
+    }
+}
+
+@import '~bootstrap/scss/bootstrap';
